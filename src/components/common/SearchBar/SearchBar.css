@@ -1,0 +1,15 @@
+.searchContainer{
+    display: flex;
+}
+.searchContainer input{
+    min-width: 240px;
+    padding:8px;
+    border:1px solid #333;
+}
+.searchContainer button{
+    background-color: #333;
+    color: #fff;
+    border:1px solid #333;
+    padding:8px;
+    cursor: pointer;
+}
