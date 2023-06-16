@@ -1,0 +1,26 @@
+.searchCarBox{
+    background-color: #f93f6c;
+    max-width:540px;
+    padding:1em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px 4em 0px 2em;
+}
+.searchCarBox label{
+    color:#FFF;
+}
+.searchCarBox h3{
+    margin-top:0px;
+    margin-bottom: 4px;
+    color: #FFF;
+    font-weight: 300;
+}
+.searchCarBox p{
+    color: #EEE;
+    font-weight: 200;
+    font-size: .8em;
+    margin-top:0;
+    margin-bottom: 20px;
+}

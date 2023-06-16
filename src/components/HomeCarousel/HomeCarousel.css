@@ -1,16 +1,24 @@
+.carousel{
+    background-color: rgb(242, 246, 250);
+    padding:0px 4em 20px 4em;
+    display: flex;
+    flex-direction: column;
+}
 .carousel__each{
     display: flex;
     min-height:600px;
-    background-color: rgb(242, 246, 250);
-    padding:0px 4em;
 }
-
 .carousel__each-arrow{
     font-size: 3em;
-    color:rgb(210, 214, 218);
-    cursor: pointer;
     align-self: center;
     flex:1;
+}
+.carousel__each-arrow.active{
+    color:rgb(200, 204, 208);
+    cursor: pointer;
+}
+.carousel__each-arrow.disabled{
+    color:rgb(230, 234, 238);
 }
 .carousel__each-content{
     margin:0px 20px;
@@ -121,4 +129,36 @@
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent black transparent;
+}
+
+
+.carousel__navigator{
+    display: flex;
+}
+.carousel__navigator-each{
+    margin:0px 16px;
+    cursor: pointer;
+}
+.carousel__navigator-each h2{
+    font-size: 1em;
+    font-weight: 200;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding:0px 14px;
+    color:#666;
+}
+.carousel__navigator-each .bottomBorder{
+    height:4px;
+    background-color: #f7c5d3;
+    border-radius: 2px;
+}
+.carousel__navigator-each.active{
+    cursor: default;
+}
+.carousel__navigator-each.active h2{
+    color:#000;
+    font-weight: 400;
+}
+.carousel__navigator-each.active .bottomBorder{
+    background-color: #f93f6c;
 }

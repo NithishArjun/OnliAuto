@@ -33,3 +33,52 @@ button.common{
   font-weight: 600;
   cursor: pointer;
 }
+
+.hide{
+  display: none !important;
+}
+.show{
+  display: block;
+}
+.oneColForm__control{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+.oneColForm__control select{
+  min-height:32px;
+}
+.oneColForm__control label{
+  margin-bottom: 2px;
+  font-size: .8em;
+  font-weight: 600;
+}
+.oneColForm__control button{
+  background-color: #FFF;
+  border:1px solid #000; 
+  color:#f93f6c;
+  margin-top: 8px;
+}
+
+.sectionTwo{
+  padding:1em 4em;
+  display: flex;
+  background:
+    linear-gradient(to bottom left,rgb(242, 246, 250) 49.8%, #11337f 50%)
+    no-repeat
+}
+.sectionThree{
+  padding:1em 4em;
+  display: flex;
+}
+
+.rightAlign{
+  text-align: right;
+}
+
+
+
+h2{
+  font-size: 2em;
+  font-weight: 200;
+}

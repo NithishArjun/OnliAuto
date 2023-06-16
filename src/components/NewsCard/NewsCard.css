@@ -1,0 +1,37 @@
+.oa-NewsCard{
+    display: flex;
+    margin:2em 0px;
+    align-items: flex-start;
+}
+
+.oa-NewsCard .thumbnail{
+    flex:1;
+    max-width: 240px;
+    object-fit: contain;
+}
+.oa-NewsCard__content{
+    flex:8;
+    margin-left: 1em;
+}
+.oa-NewsCard .link{
+    font-size:1.4em;
+    font-weight: bold;
+    color: #11337f;
+}
+.oa-NewsCard .newsSubTitle{
+    font-weight: 500;
+    margin-top: 4px;
+    font-size:.9em;
+}
+.oa-NewsCard .newsContent{
+    font-weight: 200;
+    font-size: .8em;
+    margin-bottom: 8px;
+}
+.newsFooter{
+    text-align: right;
+    margin: 0px 2em;
+    font-size: .7em;
+    color: #999;
+    
+}
